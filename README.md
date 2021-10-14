@@ -2,6 +2,10 @@
 
 ## Proyecto final del curso Desarro Web
 
-### HTML CSS BOOTSTRAP SASS
+### Lenguajes: HTML CSS BOOTSTRAP SASS
+
+### Autor: Suarez Barraza, Ignacio
 
 #### Description: Página de domótica estática con página.
+
+![screenshot home](img/screenshot.png)
