@@ -1,0 +1,63 @@
+// Estilos Globales
+
+$color-primario: rgb(240, 240, 240);
+$bg-color-primario: rgba(0, 0, 0, 0.9);
+
+body {
+  background-color: transparent !important;
+  background: radial-gradient(
+    circle,
+    rgba(9, 103, 121, 1) 4%,
+    rgba(0, 0, 0, 1) 73%
+  ) !important;
+}
+
+a {
+  transition: all 0.5s !important;
+
+  &:hover {
+    color: aqua !important;
+    transform: scale(1.1);
+  }
+}
+.menu {
+  background-color: $bg-color-primario;
+  color: $color-primario;
+}
+
+.dropdown-item {
+  color: $color-primario;
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+#logo-color {
+  color: $color-primario !important;
+}
+.white-color {
+  color: $color-primario !important;
+}
+
+.footer-bg {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 992px) {
+  .dropdown-menu-lg {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+  }
+}
+@media (max-width: 992px) {
+  .dropdown-menu {
+    background-color: transparent !important;
+  }
+}
+textarea {
+  resize: none !important;
+}
+.bg--transparent {
+  background-color: transparent !important;
+}
+.max-width-md {
+  max-width: 250px !important;
+}

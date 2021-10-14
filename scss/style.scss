@@ -1,0 +1,18 @@
+@use "globals";
+
+@use "pages/home";
+@use "pages/products";
+@use "pages/company";
+@use "pages/map";
+@use "pages/login";
+@use "pages/register";
+
+$font-family-sans-serif: "Montserrat", sans-serif;
+$primary: rgb(0, 110, 110);
+$secondary: rgb(116, 116, 116);
+$white: rgb(219, 219, 219);
+$border-radius-sm: 0.5rem;
+$border-radius-lg: 1rem;
+$card-spacer-x: 0.5rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";

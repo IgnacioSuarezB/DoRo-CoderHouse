@@ -1,0 +1,18 @@
+.marcas__container img {
+  width: 150px;
+  height: auto;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 90;
+  }
+}
+
+#form__bt--colorhover-1:hover {
+  background-color: rgba(0, 255, 255, 0.603) !important;
+}
+
+.form__textarea--bg-primary {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}

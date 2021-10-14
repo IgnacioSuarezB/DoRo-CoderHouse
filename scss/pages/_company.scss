@@ -1,0 +1,41 @@
+.container-maxw {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-h {
+  height: 150px;
+  margin: 0 auto;
+}
+
+.proyect__img--animation {
+  .proyect-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+  img {
+    transition: all 0.4s;
+  }
+  &:hover {
+    img {
+      filter: brightness(0.3);
+      z-index: 0;
+      display: block;
+    }
+    .proyect-description {
+      display: block;
+    }
+  }
+}
+
+.proyect__title--style {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+}

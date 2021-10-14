@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domótica Rosario</title>
+    <meta
+      name="description"
+      content="Domótica Rosario, especializados en automatizar tu casa para que tenga un mayor confort en tu día a día"
+    />
+    <meta
+      name="keywords"
+      content="DOMOTICA, ROSARIO, TECNOLOGIA, HOGAR, AUTOMATIZACION, CASA INTELIGENTE, DISPOSITIVOS INTELIGENTES"
+    />
+    <link rel="icon" href="./img/logo.svg" type="image/svg" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/e6f17a48b5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Animate -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Bootstrap -->
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Barra de Navegación Index -->
+    <nav
+      class="
+        navbar
+        sticky-top
+        navbar-expand-lg navbar-dark
+        menu
+        border-bottom border-2 border-secondary
+      "
+    >
+      <div class="container md-conteiner-fluid">
+        <a class="navbar-brand fs-2 fw-bold" href="./index.html">
+          <img
+            src="./img/logo.svg"
+            alt="Logo DoRo"
+            width="45"
+            height="45"
+            class="d-inline-block align-text-bottom"
+          />
+          DoRo
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav ps-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="/layout/products.html"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Productos
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark dropdown-menu-lg"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="./layout/products.html"
+                    >Climatización</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./layout/products.html"
+                    >Exteriores</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./layout/products.html"
+                    >Iluminación</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./layout/products.html"
+                    >Seguridad</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./layout/products.html"
+                    >Sistemas de control</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./layout/products.html"
+                    >Todos los productos</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./layout/company.html"
+                >Sobre Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./layout/map.html"
+                >Donde Encontrarnos</a
+              >
+            </li>
+          </ul>
+          <ul class="navbar-nav ps-3">
+            <li class="nav-item">
+              <a class="nav-link" href="./layout/login.html">Iniciar sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./layout/register.html">Registrate</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container flex-grow-1 text-white">
+      <main>
+        <!-- Primera Sección Hero-->
+        <article>
+          <div class="row py-4">
+            <div
+              class="
+                col-md-12 col-lg-6
+                order-lg-2
+                mt-3
+                animate__animated animate__fadeInRight animate__slow
+                row
+                align-items-center
+              "
+            >
+              <div>
+                <h1>Domótica Rosario</h1>
+                <p>
+                  Brindamos soluciones en diseño, proyecto, provisión de
+                  productos y servicios de automatización para poder lograr un
+                  experiencia única en tu vivienda, cambiando por completo su
+                  vida gracias a la más avanzada tecnología.
+                </p>
+                <a
+                  href="/layout/company.html"
+                  class="link-info text-end d-block"
+                  >Conócenos mejor</a
+                >
+              </div>
+            </div>
+            <!-- Carousel-->
+            <div
+              id="carouselExampleCaptions"
+              class="carousel slide col-md-12 col-lg-6 order-lg-1 mt-3"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/img/slideiluminacion1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/casa-smart-colors.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/casa-inteligente-tablet.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!-- Fin Carousel -->
+          </div>
+        </article>
+        <!-- Segunda Seccion Video-->
+        <article>
+          <div class="row py-4">
+            <div
+              class="
+                col-md-12 col-lg-6
+                mt-4
+                animate__animated animate__fadeInLeft animate__slow
+                d-flex
+                align-items-center
+              "
+            >
+              <div class="">
+                <h2 class="fs-1">Si es simple, es smart</h2>
+                <p>
+                  Utilizamos tecnología de punta con un diseño minimalista para
+                  poder encajar en cualquier ambiente sin dejar de lado la
+                  estetica de su casa.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6 mt-4">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/CRGe39x5WT0?controls=0&showinfo=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Tercera seccion Marcas-->
+        <article>
+          <div class="row py-4">
+            <h2>Principales marcas con las que trabajamos</h2>
+
+            <div
+              class="
+                marcas__container
+                row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-6
+                justify-content-center
+                text-center
+                p-0
+                mt-5
+              "
+            >
+              <div
+                class="
+                  col
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  pt-2
+                "
+              >
+                <a
+                  href="http://www.candil.com.ar/home.aspx"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src="./img/logo1.png" alt="" />
+                </a>
+              </div>
+              <div
+                class="
+                  col
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  pt-2
+                "
+              >
+                <a
+                  href="https://www.philips.com.ar/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src="./img/logo2.png" alt="" />
+                </a>
+              </div>
+              <div
+                class="
+                  col
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  pt-2
+                "
+              >
+                <a
+                  href="https://www.meanwell.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src="./img/logo3.png" alt=""
+                /></a>
+              </div>
+              <div
+                class="
+                  col
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  pt-2
+                "
+              >
+                <a
+                  href="https://www.wattio.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src="./img/logo4.png" alt="" />
+                </a>
+              </div>
+              <div
+                class="
+                  col
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  pt-2
+                "
+              >
+                <a
+                  href="https://www.gsgdesign.com.ar/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src="./img/logo6.png" alt="" />
+                </a>
+              </div>
+
+              <div
+                class="
+                  col
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  pt-2
+                "
+              >
+                <a
+                  href="https://es.control4.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src="./img/logo5.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+      <!-- Cuarta seccion Formulario -->
+      <section>
+        <article>
+          <div class="row py-4">
+            <h2>Pongase en contacto para automatizar su casa</h2>
+            <form class="row mx-auto col-lg-10 mt-3">
+              <!-- Name input -->
+              <div class="form-outline mb-4 col-lg-4">
+                <label class="form-label" for="name">Nombre:</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="
+                    form-control
+                    bg--transparent
+                    border
+                    border-3
+                    border-top-0
+                    border-end-0
+                    border-start-0
+                    border-secondary
+                    text-white
+                  "
+                  required
+                  pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                  title="No se aceptan numeros ni caracteres especiales"
+                />
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4 col-lg-8 mx-auto">
+                <label class="form-label" for="email">Dirección email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="
+                    form-control
+                    bg--transparent
+                    border
+                    border-3
+                    border-top-0
+                    border-end-0
+                    border-start-0
+                    border-secondary
+                    text-white
+                  "
+                  required
+                  pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+                />
+              </div>
+
+              <!-- Message input -->
+              <div class="form-outline mb-4 col-lg-12">
+                <label class="form-label" for="coment">Comentario:</label>
+                <textarea
+                  class="
+                    form-control form__textarea--bg-primary
+                    rounded-3
+                    border-1 border-secondary
+                    text-white
+                  "
+                  name="coment"
+                  id="coment"
+                  rows="4"
+                  placeholder="Deje aquí su comentario"
+                  required
+                ></textarea>
+              </div>
+              <div class="row ms-1 justify-content-between">
+                <!-- Checkbox -->
+                <div class="form-check mb-4 col-lg-7">
+                  <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="newsletter"
+                    checked
+                  />
+                  <label class="form-check-label" for="newsletter">
+                    Quiero recibir el mails con nuevas promociones
+                  </label>
+                </div>
+
+                <!-- Submit button -->
+                <button
+                  type="submit"
+                  class="
+                    btn btn-secondary
+                    border-0
+                    btn-block
+                    mb-4
+                    col-lg-4
+                    text-white
+                  "
+                  id="form__bt--colorhover-1"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
+        </article>
+      </section>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer-bg white-color px-4">
+      <footer class="py-3 container">
+        <div class="border-bottom pb-3 mb-3 row justify-content-between">
+          <ul class="nav justify-content-center row col-lg-4">
+            <li class="nav-item">
+              <a class="navbar-brand fs-5" id="logo-color" href="./index.html">
+                Domótica Rosario
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="./layout/products.html" class="nav-link px-2 text-muted"
+                ><i class="fas fa-shopping-cart"></i> Productos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="./layout/company.html" class="nav-link px-2 text-muted"
+                ><i class="fas fa-house-user"></i> Sobre Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link px-2 text-muted"
+                ><i class="fas fa-question"></i> FAQs</a
+              >
+            </li>
+          </ul>
+          <ul class="nav justify-content-center row col-lg-4">
+            <li class="nav-item fs-5">Contacto</li>
+            <li class="nav-item">
+              <a
+                href="mailto:dorosario@gmail.com"
+                class="nav-link px-2 text-muted"
+                ><i class="far fa-envelope"></i> dorosario@gmail.com</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="tel:+5493416066762" class="nav-link ps-2 text-muted"
+                ><i class="fas fa-phone"></i> +54 9 3416066762</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://goo.gl/maps/npugSRiqzdZJEoNb7"
+                class="nav-link px-2 text-muted"
+                target="_blank"
+                ><p><i class="fas fa-map-marker-alt"></i> Pte. Roca 1923</p>
+                Rosario, Santa Fe, Argentina</a
+              >
+            </li>
+          </ul>
+          <ul class="nav justify-content-center row col-lg-3">
+            <li class="nav-item fs-5">Nuestras Redes</li>
+            <li class="nav-item">
+              <a
+                href="https://facebook.com"
+                class="nav-link px-2 text-muted"
+                target="_blank"
+                ><i class="fab fa-facebook-square footer__logo--size"></i>
+                Facebook</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://instagram.com"
+                class="nav-link px-2 text-muted"
+                target="_blank"
+                ><i class="fab fa-instagram"></i> Instagram</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://twitter.com"
+                class="nav-link px-2 text-muted"
+                target="_blank"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <p class="text-center text-muted">
+          <i class="far fa-copyright"></i> 2021 Company, Inc
+        </p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/e6f17a48b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
