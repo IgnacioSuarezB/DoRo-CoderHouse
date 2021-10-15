@@ -6,6 +6,6 @@
 
 ### Autor: Suarez Barraza, Ignacio
 
-#### Description: Página de domótica estática con página.
+#### Description: Página de domótica hecha con Bootstrap.
 
 ![screenshot home](img/screenshot.png)
