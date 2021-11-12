@@ -2,11 +2,13 @@
 
 ## Proyecto final del curso Desarro Web
 
-### Lenguajes: HTML CSS BOOTSTRAP SASS
+### Lenguajes: HTML CSS SASS
+
+### Framework: BOOTSTRAP
 
 ### Autor: Suarez Barraza, Ignacio
 
-#### Description: Página de domótica hecha con Bootstrap.
+#### Description: Página de domótica estática.
 
 #### Link: https://ignaciosuarezb.github.io/DoRo-CoderHouse/
 

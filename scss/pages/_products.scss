@@ -80,3 +80,14 @@
     display: none !important;
   }
 }
+
+@media (min-width: 524px) {
+  .card-body {
+    h6 {
+      text-align: start !important;
+    }
+    div {
+      text-align: end !important;
+    }
+  }
+}
